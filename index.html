@@ -1,0 +1,5 @@
+function doGet() {
+  return HtmlService.createHtmlOutputFromFile('Index')
+    .setTitle('Questionário de Perfil Comportamental')
+    .setXFrameOptionsMode(HtmlService.XFrameOptionsMode.ALLOWALL);
+}
